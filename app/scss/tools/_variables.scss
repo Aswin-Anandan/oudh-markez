@@ -1,0 +1,85 @@
+/////////////////////////////
+///BASES///
+/////////////////////////////
+
+$body-bg                 : #ffffff; 
+
+/////////////////////////////
+///COLOR SYSTEMS///
+///////////////////////////// 
+
+//types colors
+$title-color            : #000000; 
+$sub-title-color        : #ffffff;
+$title-hightlight-color : #FA7773;
+$text-color             : #5e5e5e; 
+
+
+//re-initialize colors
+$primary                 : #57CC99; 
+$secondary               : #2D9CDB; 
+$primary-dark            : #FA7773;
+
+/////////////////////////////
+///Custom variable///
+/////////////////////////////
+
+$grey-variant             : #5b5b5b;
+
+
+/////////////////////////////
+///FONT SETTINGS///
+/////////////////////////////
+$font-family-sans-serif:  'Roboto', sans-serif;   
+$font-family-monospace:   'Roboto Slab', serif;
+
+// FONT WEIGHT
+$font-weight-semibold        : 600 !default;
+$font-weight-semibold-500    : 500 !default;
+
+$font-size-root:              null !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+
+h1,h2,h3,h4,h5,h6{
+   font-family: $font-family-monospace;
+}
+
+/////////////////////////////
+///CUSTOMIZED BREAKPOINT///
+///////////////////////////// 
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px //new breakpoint
+);
+
+
+/////////////////////////////
+///BUTTON COLORS///
+///////////////////////////// 
+
+$button-colors: ();
+$button-colors: map-merge(
+  (
+    "primary"             : #ffcd41, 
+    "secondary"           : #ffffff,
+    "success"             : #3F9E0B,
+    "info"                : #17a2b8,
+    "warning"             : #FFCD00,
+    "danger"              : #df3b43,
+    "light"               : #6c757d,
+    "dark"                : #2f2f2f,
+    "black"               : #000,
+    "yellow"              : #fec456
+  ),
+  $button-colors
+);
+
+
+

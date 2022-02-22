@@ -1,0 +1,27 @@
+
+DOCUMENTATION 
+
+documentation
+
+FOR INSTALL PACKAGES
+======================
+1. path/ npm install
+
+FOR RUN APP 
+===================
+
+OPTION 1 - VISUAL STUDIO
+
+sass compiling
+
+1. install Live sass compiler extension
+
+2. Update output path
+
+OPTION 2 - GULP
+
+1. path/ gulp serve
+
+
+
+

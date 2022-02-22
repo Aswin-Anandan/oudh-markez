@@ -1,0 +1,54 @@
+//paragraph and other text
+//"AvenirNextLTProRegular"
+// body, div, p, span etc...
+
+// sub title and bold text
+// "Avenir Next LT W01 Bold", sans-serif
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight:normal; 
+}
+
+//page master title
+// MontBold
+h1{
+    font-size:rem(20);
+    font-family:$headings-primary-font-family;
+    @include media-breakpoint-up(sm) { 
+        font-size:rem(26);
+    }
+    @include media-breakpoint-up(md) { 
+        font-size:rem(30);
+    }
+    @include media-breakpoint-up(lg) { 
+        font-size:rem(32);
+    }
+}
+
+//page title
+// MontBold
+h2{
+    font-size:rem(20);
+    font-family:$font-family-monospace;
+}
+h3{
+    font-size:rem(18);
+}
+h4{
+    font-size:rem(16);
+}
+h5{
+    font-size:rem(13);
+}
+h6{
+    font-size:rem(12);
+}
+
+strong,b{
+    font-family:$headings-font-family;
+    font-weight:normal;
+}

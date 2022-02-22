@@ -1,0 +1,30 @@
+.btn-primary{
+    color:$white;
+    border: solid 1px #FFC460;
+    background: transparent;
+    color: #FFC460;
+    height:45px;
+    min-width: 125px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: $font-family-sans-serif;
+    letter-spacing: 0.5px;
+
+    &:hover,&:focus{
+        border: solid 1px #FFC460;
+        color:$white;
+        background: #FFC460;
+    }
+
+}
+.btn-secondary{
+  color:$white;
+  font-size: $font-size-sm;
+    &:hover,&:focus{
+      color:$white;
+    }
+}
+.btn-danger{
+  background: $primary-dark;
+  font-size: $font-size-sm;
+}

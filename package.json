@@ -1,0 +1,24 @@
+{
+  "name": "Bootstrap",
+  "version": "v5.1.1",
+  "description": "Bootstrap App",
+  "dependencies": {
+    "gulp-minify-css": "^1.2.4",
+    "gulp-update": "0.0.2",
+    "natives": "^1.1.6",
+    "node-sass": "^6.0.1",
+    "npm": "^6.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "graceful-fs": {
+    "version": "4.2.2"
+  }
+}

@@ -1,0 +1,11 @@
+///////////////////////////
+// CUSTOM JS CODES
+///////////////////////////
+
+jQuery(document).ready(function($) {
+
+});
+
+
+
+
